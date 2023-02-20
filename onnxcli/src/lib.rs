@@ -26,7 +26,7 @@ pub fn run() -> Result<(), Error> {
         .new_session_builder()?
         .with_optimization_level(GraphOptimizationLevel::Basic)?
         .with_number_threads(1)?
-        .with_model_from_file("squeezenet1.0-12.onnx")?;
+        .with_model_from_file("squeezenet1.0-8.onnx")?;
 
     let input0_shape: Vec<usize> = session.inputs[0].dimensions().map(|d| d.unwrap()).collect();
     let output0_shape: Vec<usize> = session.outputs[0]
