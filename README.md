@@ -1,6 +1,6 @@
 # ONNX command-line tool based on Rust
 # Introduction
-This is a mini project based on the course example of ONNX command line tool. This is based on the onnxruntime, and it can infer the score of the input model. For simplicity, the test model is squeezenet1.0 just the same as the model in the course example.
+This is a mini project based on the course example of ONNX command line tool. This is based on the onnxruntime, and it can infer the score of the input model. For simplicity, the test model is squeezenet1.0-8 which is different from the model in the course example. I uploaded the model to the repo for simplicity.
 
 # Usage
 Use ```cargo run -- onnxrun``` to run the application.
